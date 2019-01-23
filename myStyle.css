@@ -1,0 +1,38 @@
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  background-color: DodgerBlue;
+}
+
+h1{
+	text-align:center;
+}
+#header_photo{
+  width: 30%;
+}
+#header_name{
+	align-self: center;
+}
+img{
+	margin: 25px 25px 25px 25px;
+}
+#intro{
+	padding: 25px 150px 50px 150px;
+	font-size: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .flex-container {
+	flex-direction: column;
+  }
+  #intro{
+	padding: 0px 0px 0px 0px;
+  }
+}
+
+@media screen and (min-width: 2200px) {
+  #intro{
+     font-size: 25px;
+  }
+}
