@@ -3,10 +3,17 @@
   display: flex;
   flex-direction: row;
   background-color: DodgerBlue;
+  background: linear-gradient(to right, rgb(150,170,241) , rgb(240,255,230));
 }
-
+body{
+    margin: auto;
+}
 h1{
 	text-align:center;
+}
+h2{
+	text-align:center;
+	text-shadow:20px 20px red;
 }
 #header_photo{
   width: 30%;
@@ -17,10 +24,34 @@ h1{
 img{
 	margin: 25px 25px 25px 25px;
 }
+
 #intro{
 	padding: 25px 150px 50px 150px;
 	font-size: 20px;
 }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+/*th {
+
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #76B2E6;
+    color: #050404;
+
+}*/
+th ,td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+
+
+tr.course:hover {background-color:#f5f5d5;}
 
 @media screen and (max-width: 800px) {
   .flex-container {
