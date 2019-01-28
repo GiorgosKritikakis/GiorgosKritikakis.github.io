@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>MyHomePage</title>
-	<meta name="keywords" content = "Giorgos Kritikakis,csd3309" >
+	<meta name="keywords" content = "Giorgos Kritikakis" >
 	<meta name="description" content = "autobiography" >
 	<meta name="autdor" content = "Giorgos Kritikakis">
 	
@@ -18,7 +18,9 @@
 	
     <!-- Your own stylesheet -->
     <link rel="stylesheet" type="text/css" href="myStyle.css">
+	<link rel="stylesheet" type="text/css" href="navbar.css">
 	
+	<script src="navButtons.js"></script>
 	
    </head>
   <body>
@@ -55,9 +57,14 @@
 				<p>My name is Giorgos Kritikakis .I was born on 25td of January 1994 at Heraklion city.I attended tde 3td
 				primary school , and tde 5td hight school of heraclion. I got admitted to tde university of Crete 
 				in 2013. Botd my parents were born to tde Mochos village. </p>
-			</div-->
-			<h2>courses attended</h2 >
-			<table>
+			</div>
+				<h2>courses attended</h2 -->
+			<ul>
+				<li><button class="button" onclick="showContent(document.getElementById('courses'), document.getElementById('projects'))"><span>courses attended</span></button></li>
+				<li><button class="button" onclick="showContent(document.getElementById('projects') , document.getElementById('courses'))"><span>Projects</span></button></li>
+			</ul>
+			
+			<table id="courses">
 				<tr>
 					<th>Code</th>
 					<th>Course Name</th>
@@ -231,11 +238,10 @@
 				</tr>				
 				
 			</table>
+		
+			<div id="projects" >bla bla bla bla</div>
 		<!--/article>
 	</main-->
-	<footer>
-		bla bla bla bla
-	</footer>
   </body>
   
 </html>
