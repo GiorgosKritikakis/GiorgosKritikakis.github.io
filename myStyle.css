@@ -65,9 +65,13 @@ li button {
   right: 0;
 }
 
-.button:hover{
-  background-color: #111;
+#coursesButton{
+	background-color:#111;
 }
+
+/*.button:hover{
+  background-color: #111;
+}*/
 
 
 /**************************************/

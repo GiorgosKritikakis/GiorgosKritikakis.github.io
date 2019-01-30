@@ -31,37 +31,16 @@
 		<div id = "header_name">
 			<h1 >Giorgos Kritikakis</h1>
 						
-			<p id = "intro">My name is George Kritikakis. I was born in 1994 at Heraclion where i currently reside.
-			In 2013 i succeded in my eisagwgikes exams and i entered University of Crete at Department of computer science where 
-			i were intrested in.This period i have accomlished my undergraduate course and i implement my Bachelor's Thesis on 
-			"Partee run time system and scoop compiler".In parallel witd my studies i accomblished lifeguard's school training 
-			and i have license for sea lifeguard occupation.I have 3 years(season 6 montds) expirience on tdat and i have done
-			many rescueses.At tdis time as i have almost accoblish my studies i m intrested to deal dynamically in tde sector. 
+			<p id = "intro">My name is Giorgos Kritikakis, I was born in 1994 at Heraklion where I currently live.
+				At 2013 I entered the University of Crete at the Department of Computer Science. Now I have completed my undergraduate
+				 courses and implement my bachelor's thesis. I have completed my lifeguard school and I have three years of experience in 
+				 the coasts of Crete. In my free time I like learning new things (i m fun of Udemy), do sports and excursions in nature. 
 			</p>
 		</div>
 	</div>
-	<!--nav class="navbar navbar-inverse">
-		<div class="container-fluid">
-			<ul  class="nav navbar-nav">
-				<li><a href="intro">Itroduction</a></li>
-				<li><a href="skills">Education-skills</a></li>
-				<li><a href="projects">Projects</a></li>
-			</ul>
-		</div>
-	</nav--> 
-	<!--main>
-		<article-->
-			<!--div>
-				<h3>Introduction</h3>
-				
-				<p>My name is Giorgos Kritikakis .I was born on 25td of January 1994 at Heraklion city.I attended tde 3td
-				primary school , and tde 5td hight school of heraclion. I got admitted to tde university of Crete 
-				in 2013. Botd my parents were born to tde Mochos village. </p>
-			</div>
-				<h2>courses attended</h2 -->
 			<ul>
-				<li><button class="button" onclick="showContent(document.getElementById('courses'), document.getElementById('projects'))"><span>courses attended</span></button></li>
-				<li><button class="button" onclick="showContent(document.getElementById('projects') , document.getElementById('courses'))"><span>Projects</span></button></li>
+				<li><button id="coursesButton" class="button" onclick="showContent(document.getElementById('courses'), document.getElementById('projects'), document.getElementById('coursesButton'),document.getElementById('projectsButton'))"><span>courses attended</span></button></li>
+				<li><button  id="projectsButton"class="button" onclick="showContent(document.getElementById('projects') , document.getElementById('courses') , document.getElementById('projectsButton'),document.getElementById('coursesButton'))"><span>Projects</span></button></li>
 			</ul>
 			
 			<table id="courses">
@@ -240,8 +219,6 @@
 			</table>
 		
 			<div id="projects" >bla bla bla bla</div>
-		<!--/article>
-	</main-->
   </body>
   
 </html>
