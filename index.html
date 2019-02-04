@@ -26,21 +26,28 @@
   <body>
 	<div class="flex-container">
 		<div id = "header_photo">
-			<img src="KritikakisGiorgos.jpg" alt="photo" height="350" widtd="200">	
+			<img src="./images/KritikakisGiorgos.jpg" alt="photo" height="350" widtd="200">	
 		</div>
 		<div id = "header_name">
 			<h1 >Giorgos Kritikakis</h1>
+			<h2>sofware engineer</h2>
 						
-			<p id = "intro">My name is Giorgos Kritikakis, I was born in 1994 at Heraklion where I currently live.
-				At 2013 I entered the University of Crete at the Department of Computer Science. Now I have completed my undergraduate
-				 courses and implement my bachelor's thesis. I have completed my lifeguard school and I have three years of experience in 
-				 the coasts of Crete. In my free time I like learning new things (i am fun of Udemy), do sports and excursions in nature. 
+			<p id = "intro">My name is Giorgos(or George) Kritikakis, I was born in 1994 at Heraklion where I currently live.
+				At 2013 I entered the University of Crete at the Department of Computer Science(<small><a href="https://www.csd.uoc.gr/CSD/index.jsp?lang=en" target="_blank">csd department</a></small>).
+				Now I have completed my undergraduate courses and implement my bachelor's thesis.Parallel with my studies I have completed lifeguard
+				school and I have three years of experience in the coasts of Crete. In my spare time I like learning new things (i am fun of Udemy), do sports and excursions in nature. 
+			</p>
+			<p id="contactInfo">
+				<strong>Contact Information:</strong>
+					<a href="mailto:gggiorgos1994@gmail.com">
+						<img class="contact_img" src="./images/gmail-icon.png">
+					</a>
 			</p>
 		</div>
 	</div>
-			<ul>
+			<ul class="NavBar">
 				<li><button id="coursesButton" class="button" onclick="showContent(document.getElementById('courses'), document.getElementById('projects'), document.getElementById('coursesButton'),document.getElementById('projectsButton'))"><span>courses attended</span></button></li>
-				<li><button  id="projectsButton"class="button" onclick="showContent(document.getElementById('projects') , document.getElementById('courses') , document.getElementById('projectsButton'),document.getElementById('coursesButton'))"><span>Projects</span></button></li>
+				<li><button  id="projectsButton"class="button" onclick="showContent(document.getElementById('projects') , document.getElementById('courses') , document.getElementById('projectsButton'),document.getElementById('coursesButton'))"><span>skills and projects</span></button></li>
 			</ul>
 			
 			<table id="courses">
@@ -52,12 +59,12 @@
 				<tr class="course">
 					<td>cs-100</td>
 					<td>Introduction to Computer Science</td>
-					<td>10</td>
+					<td>8</td>
 				</tr>
 				<tr class="course">
 					<td>CS-108</td>
 					<td>English I</td>
-					<td>10</td>
+					<td>9</td>
 				</tr>
 				<tr class="course">
 					<td>cs-109</td>
@@ -67,148 +74,153 @@
 				<tr  class="course">
 					<td>CS-110</td>
 					<td>Calculus I</td>
-					<td>10</td>
+					<td>9</td>
 				</tr>
 				<tr class="course">
 					<td>cs-118</td>
 					<td>Discrete Matdematics</td>
-					<td>10</td>
+					<td>7.5</td>
 				</tr>
 				<tr class="course">
 					<td>cs-119</td>
 					<td>Linear Algebra</td>
-					<td>10</td>
+					<td>6</td>
 				</tr>
 				<tr class="course">
 					<td>cs-120</td>
 					<td>Digital Design</td>
-					<td>10</td>
+					<td>7</td>
 				</tr>
 				<tr class="course">
 					<td>cs-150</td>
 					<td>Programming</td>
-					<td>10</td>
+					<td>7</td>
 				</tr>
 				<tr class="course">
 					<td>CS-180</td>
 					<td>Logic</td>
-					<td></td>
+					<td>8.5</td>
 				</tr>
 				<tr class="course">
 					<td>CS-208</td>
 					<td>English III</td>
-					<td></td>
+					<td>8</td>
 				</tr>
 				<tr class="course">
 					<td>CS-209</td>
 					<td>English IV</td>
-					<td></td>
+					<td>8</td>
 				</tr>
 				<tr class="course">
 					<td>CS-215</td>
 					<td>Applied Matdematics for Engineers</td>
-					<td></td>
+					<td>8.5</td>
 				</tr>
 				<tr class="course">
 					<td>CS-217</td>
 					<td>Probability</td>
-					<td></td>
+					<td>6</td>
 				</tr>
 				<tr class="course">
 					<td>CS-225</td>
 					<td>Computer Organization</td>
-					<td></td>
+					<td>6</td>
 				</tr>
 				<tr class="course">
 					<td>CS-240</td>
 					<td>Data Structures</td>
-					<td></td>
+					<td>7.5</td>
 				</tr>
 				<tr class="course">
 					<td>CS-252</td>
 					<td>Object-Oriented Programming</td>
-					<td></td>
+					<td>7.5</td>
 				</tr>
 				<tr class="course">
 					<td>CS-255</td>
 					<td>Software Technology Laboratory</td>
-					<td></td>
+					<td>6</td>
 				</tr>
 				<tr class="course">
 					<td>CS-280</td>
 					<td>Theory of Computation</td>
-					<td></td>
+					<td>7</td>
 				</tr class="course">
 				<tr>
 					<td>CS-335</td>
 					<td>Computer Networks</td>
-					<td></td>
+					<td>5.5</td>
 				</tr class="course">
 				<tr>
 					<td>CS-340</td>
 					<td>Languages and Compilers</td>
-					<td></td>
+					<td>7.5</td>
 				</tr>
 				<tr class="course">
 					<td>CS-345</td>
 					<td>Operating Systems</td>
-					<td></td>
+					<td>5</td>
 				</tr>
 				<tr class="course">
 					<td>CS-360</td>
 					<td>Files and Databases</td>
-					<td></td>
+					<td>8.5</td>
 				</tr>
 				<tr class="course">
 					<td>CS-380</td>
-					<td>Algoritdms and Complexity</td>
-					<td></td>
+					<td>Algorithms and Complexity</td>
+					<td>5</td>
 				</tr>
 				<tr class="course">
 					<td>CS-112</td>
 					<td>Physics I</td>
-					<td></td>
+					<td>8.5</td>
 				</tr>
 				<tr class="course">
 					<td>MEM-293</td>
 					<td>Optimization Theory</td>
-					<td></td>
+					<td>6.5</td>
 				</tr>
 				<tr class="course">
 					<td>CS-111</td>
 					<td>Calculus II</td>
-					<td></td>
+					<td>9.5</td>
 				</tr>
 				<tr class="course">
 					<td>CS-352</td>
 					<td>Software Engineering</td>
-					<td></td>
+					<td>7.5</td>
 				</tr>
 				<tr class="course">
 					<td>CS-359</td>
 					<td>Web Programming</td>
-					<td></td>
+					<td>8</td>
 				</tr>
 				<tr class="course">
 					<td>CS-342</td>
 					<td>Parallel Programming</td>
-					<td></td>
+					<td>7</td>
 				</tr>
 				<tr class="course">
 					<td>CS-454</td>
 					<td>Software Systems and Applications</td>
-					<td></td>
+					<td>10</td>
 				</tr>
 				<tr class="course">
 					<td>CS-404</td>
 					<td>Small Business Management - Entrepreneurship</td>
-					<td></td>
+					<td>7.5</td>
 				</tr>
 				<tr class="course">
 					<td>CS-408</td>
 					<td>Technological Innovation and Entrepreneurship</td>
-					<td></td>
-				</tr>	
+					<td>6.5</td>
+				</tr>
+				<tr class="course">
+					<td>CS-409</td>
+					<td>Business Strategy</td>
+					<td>7.5</td>
+				</tr>
 				<tr>
 					<th></th>
 					<th>TOTAL ECTS: 228</th>
@@ -218,7 +230,21 @@
 				
 			</table>
 		
-			<div id="projects" >bla bla bla bla</div>
+			<div id="projects" >
+				<h3>Projects</h3>
+				<ul style="list-style-type:disc;">
+					  <li>Alpha programming language(compiler) : lex , yacc , intermidiate code generation, virtual machine  </li>
+					  <li>add 2 new system calls to linux kernel: operating system ,C programming</li>
+					  <li>linux shell:</li>
+					  <li>QBert 2D game: Allegro , C++</li>
+					  <li>leqeed Democracy: html css javascript ajax requests json javaservlets sessions cokkies</li>
+					  <li>2D card game: java controle-model-view</li>
+					  <li>Belman's hart algorithm: pthreads javathreads OMP TBB</li>
+					  <li>sudoku</li>
+					  <li>game of life</li>
+					  <li>Web Page to Control a lamb using Arduino in local network: arduino , arduino ethernet schield , relay , lamp</li>
+				</ul>  
+			</div>
   </body>
   
 </html>

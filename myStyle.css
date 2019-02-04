@@ -12,12 +12,8 @@ h1{
 	text-align:center;
 }
 
-/*h2{
-	text-align:center;
-	text-shadow:20px 20px red;
-}*/
 /**Navigation Bar*********************/
-ul {
+.NavBar {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -25,12 +21,12 @@ ul {
   background-color: #333;
 }
 
-li {
+ul.NavBar>li {
   float: left;
    width:50%;
 }
 
-li button {
+ul.NavBar>li button {
   display: block;
   color: white;
   text-align: center;
@@ -68,18 +64,15 @@ li button {
 #coursesButton{
 	background-color:#111;
 }
-
-/*.button:hover{
-  background-color: #111;
-}*/
-
-
-/**************************************/
+/*End of Navigation Bar**************************************/
 #header_photo{
   width: 30%;
 }
 #header_name{
 	align-self: center;
+}
+h2{
+	text-align:center;
 }
 img{
 	margin: 25px 25px 25px 25px;
@@ -94,15 +87,6 @@ table {
   border-collapse: collapse;
   width: 100%;
 }
-/*th {
-
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: #76B2E6;
-    color: #050404;
-
-}*/
 th ,td {
   padding: 8px;
   text-align: left;
@@ -112,6 +96,16 @@ th ,td {
 
 
 tr.course:hover {background-color:#f5f5d5;}
+
+#contactInfo{
+	text-align:center;
+}
+
+.contact_img{
+	height:35px;
+	width:40px;
+	margin:auto;
+}
 
 #projects{
 	display:none;
