@@ -4,6 +4,8 @@
   flex-direction: row;
   background-color: DodgerBlue;
   background: linear-gradient(to right, rgb(150,170,241) , rgb(240,255,230));
+  align-items: center;
+  justify-content: center;
 }
 body{
     margin: auto;
@@ -65,9 +67,6 @@ ul.NavBar>li button {
 	background-color:#111;
 }
 /*End of Navigation Bar**************************************/
-#header_photo{
-  width: 30%;
-}
 #header_name{
 	align-self: center;
 }
@@ -79,7 +78,7 @@ img{
 }
 
 #intro{
-	padding: 25px 150px 50px 150px;
+	padding: 25px 50px 50px 50px;
 	font-size: 20px;
 }
 
