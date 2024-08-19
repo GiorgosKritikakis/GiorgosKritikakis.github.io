@@ -77,8 +77,7 @@ img{
 	margin: 25px 25px 25px 25px;
 }
 
-#intro{
-	padding: 25px 50px 50px 50px;
+.intro{
 	font-size: 20px;
 }
 
@@ -110,11 +109,12 @@ tr.course:hover {background-color:#f5f5d5;}
 	display:none;
 }
 
+
 @media screen and (max-width: 800px) {
   .flex-container {
 	flex-direction: column;
   }
-  #intro{
+  .intro{
 	padding: 0px 0px 0px 0px;
   }
 }
